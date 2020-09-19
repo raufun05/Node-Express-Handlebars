@@ -5,8 +5,6 @@ $(function() {
     $(".eatBurger").on("click", function(event) {
 
 
-
-
       let id = $(this).data("id");
       let devouredState = {
 //devoured set to true
@@ -27,9 +25,6 @@ $(function() {
         }
       );
     });
-  
-
-
 
     // $(".create-form").on("submit", function(event) {
     //   // Make sure to preventDefault on a submit event.(prvent initial load)
@@ -55,9 +50,6 @@ $(function() {
     //   );
     // });
   
-
-
-
 
     $(".delete-burger").on("click", function(event) {
       let id = $(this).data("id");
