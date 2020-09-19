@@ -1,7 +1,7 @@
 //
 let express = require("express");
 
-let PORT = process.env.PORT || 8080;
+let PORT = process.env.PORT || 8000;
 
 //app letiable to run express
 let app = express();

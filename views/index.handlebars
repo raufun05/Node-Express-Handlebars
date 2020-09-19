@@ -1,19 +1,19 @@
-<h1>Burgers!</h1>
+<h1>Burgers!<img src="img/tasty_burger.jpg" alt="Burgers" />Burgers!</h1>
 
 <h2>Burgers that are not eaten!</h2>
 
-<ul>
+<ul class = 'list'>
   {{#each burgers}}
     {{#unless this.devoured}}
-      <li>{{this.id}},{{this.burger_name}}</li>
-      <button class='eatBurger' data-id="{{this.id}}">Devour Burger</button>
+        <li>{{this.id}}. {{this.burger_name}}</li>
+        <button class='eatBurger' data-id="{{this.id}}">Devour Burger</button>
     {{/unless }}
   {{/each}}
 </ul>
 
 <h2>Burgers that are eaten!</h2>
 
-<ul>
+<ul class='eaten'>
   {{#each burgers}}
     {{#if devoured}}
       <li>{{this.id}} {{this.burger_name}}</li>

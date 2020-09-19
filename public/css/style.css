@@ -1,0 +1,22 @@
+h1, h2{
+    text-align: center;
+    color: blue;
+}
+.list {
+    text-align: center;
+    list-style-type: none;
+    color: orangered;
+}
+.create-form{
+    text-align: center;
+    color: green;
+}
+.eaten{
+    text-align: center;
+    list-style-type: none;
+    color: orangered;
+}
+.eatBurger{
+    background-color: green;
+    color: white;
+}
