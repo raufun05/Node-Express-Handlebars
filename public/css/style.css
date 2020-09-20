@@ -1,20 +1,39 @@
-h1, h2{
+body{
+    background-color: #f9f5d2;
+    
+}
+h1{
     text-align: center;
     color: blue;
 }
-.list {
+h2{
+    text-align: left;
+    color: blue;
+    padding-left: 80px;
+}
+h3{
     text-align: center;
+    color:red;
+}
+.list {
+    text-align: left;
     list-style-type: none;
     color: orangered;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 100px;
 }
 .create-form{
-    text-align: center;
+    text-align: left;
     color: green;
+    padding-left: 100px;
 }
 .eaten{
     text-align: center;
     list-style-type: none;
     color: orangered;
+    font-weight: bolder;
+    font-size: 20px;
 }
 .eatBurger{
     background-color: green;
