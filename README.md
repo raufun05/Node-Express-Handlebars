@@ -242,5 +242,16 @@ If you have any questions about this project or the material we have covered, pl
 When trying to connect remotely to your Heroku database on an open network such as a coffee shop, library, or even your University WiFi, it will be blocked. If you are experiencing a Heroku connection error, this could be why.
 
 **Good Luck!**
+## Submission on BCS
 
-Heroku Deployed link: https://polar-everglades-13372.herokuapp.com/
+You are required to submit the following:
+
+* Heroku Deployed link: 
+   
+   https://stark-cliffs-15899.herokuapp.com/
+
+* The URL of the GitHub repository
+
+https://github.com/raufun05/Node-Express-Handlebars
+
+
