@@ -1,5 +1,5 @@
 // Set up MySQL connection.
-let mysql = require("mysql");
+var mysql = require('mysql');
 var connection;
 
 if (process.env.JAWSDB_URL){
@@ -13,7 +13,9 @@ if (process.env.JAWSDB_URL){
     database: "burgers_db"
   });
 };
-
+connection.connect();
+// Export connection for our ORM to use.
+module.exports = connection;
 // Make connection.
 // connection.connect(function(err) {
 //   if (err) {
@@ -22,9 +24,7 @@ if (process.env.JAWSDB_URL){
 //   }
 //   console.log("connected as id " + connection.threadId);
 // });
-connection.connect();
-// Export connection for our ORM to use.
-module.exports = connection;
+
 
 
 // var mysql = require("mysql");
